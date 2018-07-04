@@ -41,5 +41,12 @@ Different OS generates new linkkey when pairing with your divice. We need to syn
    Key=0000000000000000AAAAAAAAAAAAAAAA
    ```
    Replace contents after `Key=` with the linkkey you memorized in step3. Remove `,`(commas) and change lower case letters to UPPER CASE.
-   Reboot your system.
-   
+   After replacement, file should look like:
+   ```
+   [LinkKey]
+   Key=0A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P
+   ```
+   Reboot your system. Every device must work.
+
+## Problem
+   Cannot deal with Bluetooth LE devices.
