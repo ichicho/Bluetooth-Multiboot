@@ -24,16 +24,16 @@ Different OS generates new linkkey when pairing with your divice. We need to syn
    Memorize the linkeys.
 4. Boot to Ubuntu and edit linkkeys saved in system with nano/vim as root:
    ```
-   sudo nano /var/lib/bluetooth/<MAC address of bluetooth adapter>/<MAC address of bluetooth device>/info
+   sudo nano /var/lib/bluetooth/<MAC Address of Bluetooth Adapter>/<MAC Address of Bluetooth Device>/info
    ```
    Example:
    ```
-   sudo nano /var/lib/bluetooth/<MAC address of bluetooth adapter>/<MAC address of bluetooth device>/info
+   sudo nano /var/lib/bluetooth/<>/<>/info
    ```
    Find the linkkey saved in file:
    ```
    [LinkKey]
-   Key=<Linkkey>
+   Key=<LINKKEY>
    ```
    Example:
    ```
