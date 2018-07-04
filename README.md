@@ -28,7 +28,7 @@ Different OS generates new linkkey when pairing with your divice. We need to syn
    ```
    Example:
    ```
-   sudo nano /var/lib/bluetooth/<>/<>/info
+   sudo nano /var/lib/bluetooth/<00:00:00:aa:aa:aa>/<11:11:11:bb:bb:bb>/info
    ```
    Find the linkkey saved in file:
    ```
