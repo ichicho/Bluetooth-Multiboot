@@ -3,11 +3,12 @@
 This tutorial shows that how to configure your bluetooth devices in order to use them in multi-boot system without pairing them again.
 
 ## Principle
-Different OS generates new linkkey when pairing with your divice. We need to synchronize the linkkey saved in different OS.
+Different OS generates new linkkey when pairing with your divice. 
+We need to synchronize the linkkey saved in different OS.
 
 ## Tutorial
 1. Pair your bluetooth device in order of Ubuntu, Windows, macOS.
-(optional) Find and memorize MAC addresses of your bluetooth adapter and devices. 
+   Find and memorize MAC addresses of your bluetooth adapter and devices. 
 
 2. Extract linkkeys by following [this guide](https://github.com/ichicho/BT-LinkkeySync).
    Import linkkeys into Windows by using the method offered in the guide.
@@ -43,13 +44,14 @@ Different OS generates new linkkey when pairing with your divice. We need to syn
    [LinkKey]
    Key=0000000000000000AAAAAAAAAAAAAAAA
    ```
-   Replace contents after `Key=` with the linkkey you memorized in step3. Remove `,`(commas) and change lower case letters to UPPER CASE.
+   Replace contents after `Key=` with the linkkey you memorized in step3.
+   Remove `,`(commas) and change lower case letters to UPPER CASE.
    After replacement, file should look like:
    ```
    [LinkKey]
    Key=0A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P
    ```
-   Reboot your system. Every device must work.
+   Reboot your system. Every device should work.
 
 ## Problem
    Cannot deal with Bluetooth LE devices.
