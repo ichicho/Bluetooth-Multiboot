@@ -28,7 +28,7 @@ We need to synchronize the linkkey saved in different OS.
    ```
    Memorize the linkeys.
    
-4. Boot to Ubuntu and edit linkkeys saved in system with nano/vim as root:
+4. Boot to Ubuntu and edit linkkey file saved in system with nano/vim **as root**:
    ```
    sudo nano /var/lib/bluetooth/<MAC Address of Bluetooth Adapter>/<MAC Address of Bluetooth Device>/info
    ```
@@ -36,7 +36,7 @@ We need to synchronize the linkkey saved in different OS.
    ```
    sudo nano /var/lib/bluetooth/<00:00:00:aa:aa:aa>/<11:11:11:bb:bb:bb>/info
    ```
-   Find the linkkey saved in file:
+   Find the linkkey recorded in file contents:
    ```
    [LinkKey]
    Key=<LINKKEY>
