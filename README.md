@@ -11,7 +11,7 @@ We need to synchronize the linkkey saved in different OS.
    Find and memorize MAC addresses of your bluetooth adapter and devices. 
 
 2. Extract linkkeys by following steps in [this project](https://github.com/digitalbirdo/BT-LinkkeySync) or [the copy of it](./BT-LinkkeySync/README.md).
-   Import linkkeys into Windows by using the method offered in the guide.
+   Import extracted linkkeys into Windows by using the method offered in the guide.
    
    Credit to [digitalbirdo](https://github.com/digitalbirdo).
    
